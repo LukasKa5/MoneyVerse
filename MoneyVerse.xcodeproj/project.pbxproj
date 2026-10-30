@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		59C8BF9D2EFB034B001828BB /* MoneyVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5974B0442F10FA7900F78F18 /* MoneyVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		59C8BF9F2EFB034B001828BB /* MoneyVerse */ = {
+		59FEF31A2F5238E5004FF10F /* MoneyVerse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MoneyVerse;
 			sourceTree = "<group>";
@@ -32,17 +32,9 @@
 		59C8BF942EFB034B001828BB = {
 			isa = PBXGroup;
 			children = (
-				59C8BF9F2EFB034B001828BB /* MoneyVerse */,
-				59C8BF9E2EFB034B001828BB /* Products */,
+				5974B0442F10FA7900F78F18 /* MoneyVerse.app */,
+				59FEF31A2F5238E5004FF10F /* MoneyVerse */,
 			);
-			sourceTree = "<group>";
-		};
-		59C8BF9E2EFB034B001828BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59C8BF9D2EFB034B001828BB /* MoneyVerse.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,13 +53,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				59C8BF9F2EFB034B001828BB /* MoneyVerse */,
+				59FEF31A2F5238E5004FF10F /* MoneyVerse */,
 			);
 			name = MoneyVerse;
 			packageProductDependencies = (
 			);
 			productName = MoneyVerse;
-			productReference = 59C8BF9D2EFB034B001828BB /* MoneyVerse.app */;
+			productReference = 5974B0442F10FA7900F78F18 /* MoneyVerse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +87,7 @@
 			mainGroup = 59C8BF942EFB034B001828BB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 59C8BF9E2EFB034B001828BB /* Products */;
+			productRefGroup = 59C8BF942EFB034B001828BB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -251,16 +243,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7K4RYLG8G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,16 +279,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7K4RYLG8G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

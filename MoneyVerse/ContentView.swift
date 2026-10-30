@@ -5,20 +5,25 @@
 //  Created by Lukáš Kaniansky on 23/12/2025.
 //
 
+import AVFoundation
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage("HasSeenIntro") var hasSeenIntro = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if hasSeenIntro {
+                MenuView()
+            } else {
+                IntroSequenceViewManager()
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+

@@ -12,6 +12,9 @@ struct MoneyVerseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .task {
+                    await SceneLoader.shared.loadAll()
+                }
         }
     }
 }
